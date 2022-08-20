@@ -11,3 +11,16 @@
 
     color: white;
 }
+
+.group-radio,
+.contact-select {
+    width: 49%;
+
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.group-radio .radio:first-child {
+    margin-top: 0;
+}
