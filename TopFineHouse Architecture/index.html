@@ -19,7 +19,37 @@
     </head>
 
     <body>
-        <section class="container">
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+            
+                    <a class="navbar-brand" href="#">TopFineHouse Architecture</a>
+                </div>
+                <div id="collapse-navbar" class="collapse navbar-collapse" style="padding: 0;">
+                    <ul class="nav nav-bar">
+                        <li> <a href="#about-us">About Us</a> </li>
+                        <li> <a href="#our-projects">Our Projects</a> </li>
+                        <li> <a href="#testimonials">Testimonials</a> </li>
+                        <li> <a href="#video">Video</a> </li>
+                        <li> <a href="#contact">Contacts</a> </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="banner">
+                <h1>TopFineHouse Architecture</h1>
+                <p>Designing the dream house since 200 BC</p>
+                <button class="btn btn-primary btn-lg">Contact us now</button>
+            </div>
+        </header>
+
+        <section id="about-us" class="container">
             <h2>About Us</h2>
             <img class="img-responsive" src="assets/images/company.jpg">
 
@@ -50,7 +80,7 @@
             <p>More than 5 million satisfied customers worldwide.</p>
         </div>
 
-        <section class="container">
+        <section id="our-projects" class="container">
             <h2>Our Projects</h2>
             
             <figure class="thumbnail">
@@ -99,7 +129,7 @@
             </figure>
         </section>
 
-        <section>
+        <section id="testimonials">
             <h2 class="title-testimonials container">Customer Testimonials</h2>
             
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -148,14 +178,14 @@
             </div>
         </section>
 
-        <div class="container">
+        <div id="video" class="container">
             <h2>Institutional video</h2>
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hyv5dY38Ep0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
 
-        <section class="container">
+        <section id="contact" class="container">
             <h2>Contact</h2>
             <p>Contact us</p>
 
@@ -211,5 +241,7 @@
                 E-mail: contato.topcasafina@alura.com.br
             </address>
         </footer>
+
+        <script src="assets/js/navbar.js"></script>r
     </body>
 </html>
